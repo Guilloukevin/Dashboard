@@ -128,3 +128,18 @@ footer{
     background-color: #343a40;
     
 }
+
+.btn-custom{
+    background-color: #343a40;
+    display: block;
+    width: 100%;
+    border-radius: 13px;
+}
+
+.card-header{
+    background-color: #343a40;
+}
+
+.card-body{
+    background-color: #ebeced;
+}
