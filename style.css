@@ -1,5 +1,5 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+
     background-color: white;
 }
 
@@ -59,5 +59,72 @@ body{
     box-shadow: none;
     border-bottom: 2px solid #dc3545;
 }
+
+.search-button{
+    border-radius: 50%;
+    padding: 10px 16px;
+    transition: all .4s;
+}
+
+.search-button:hover{
+    background-color: #eee;
+    transform: translateY(-1px);
+}
+
+.icon-parent{
+    position: relative;
+
+}
+
+.icon-bullet::after{
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 15px;
+    height: 12px;
+    width: 12px;
+    background-color: #f44336;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 768px) {
+    .sidebar{
+        position: static;
+        height: auto;
+    }
+
+    .top-navbar{
+        position: static;
+    }
+}
 /* End of Navbar */ 
-                           
+                        
+
+/* CARDS */
+
+.card-common{
+    box-shadow: 1px 2px 5px #999;
+    transition: all .4s;
+}
+
+
+.card-common:hover{
+    box-shadow: 2px 3px 15px #999;
+    transform:  translateY(-1px);
+}
+
+/* END OF CARDS */
+
+/* TASK LIST */
+
+.task-border {
+    border-left: 3px solid #f66436;
+}
+
+/* END TASK LIST */
+
+footer{
+    background-color: #343a40;
+    
+}
